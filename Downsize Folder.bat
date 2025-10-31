@@ -1,5 +1,5 @@
  @ECHO OFF
- SET exe=%cd%\..\ffmpeg.exe
+ SET exe=%cd%\ffmpeg.exe
 
  SET /p "source=Enter Source Directory: "
  SET target=%source%\Converted
@@ -29,3 +29,4 @@
  ECHO.
  ECHO Finished
  PAUSE
+
